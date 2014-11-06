@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>Chat</h2>
+<input id="username" type="text" placeholder="Enter username..." />
+<input id="room" type="text" placeholder="Enter chatroom..." />
+<input id="join-chat-room" type="submit" value="Join room!" />
+<h3 id="room-name"></h3>
+<p id="participants"></p>
+<div>
+    <p id="chat-section"></p>
+</div>
+<input id="chat-input" type="text" placeholder="Write to your friends" />
+<input id="send-message" type="submit" value="Send" />
+
+@section scripts{
+    <script type="text/javascript" src="~/signalr/hubs"></script>
+    <script>
+
+    </script>
+}
